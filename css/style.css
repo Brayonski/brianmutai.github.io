@@ -1,0 +1,224 @@
+.homepage{
+    background: url('../images/jeshoots.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .projectbody{
+    background-color: #F4AEA5;
+    margin: auto;
+  }
+  
+  .aboutmebody{
+    background-color: #C0D2CC;
+  }
+  
+  .contactbody{
+    background-color: #C0D2CC;
+  }
+  
+  .images{
+    /* display: inline; */
+    height: 2em;
+    width: 2em;
+    margin-top: 1vh;
+  }
+  
+  #social{
+    margin-left: 5vw;
+  }
+  
+  #social img:active{
+    background-color: #01FDA9;
+  }
+  
+  .csocial ul{
+    background-color: #ffffff;
+    list-style: inline-block;
+  }
+  
+  .csocial a{
+  
+    height: 2vh;
+    width: 2vw;
+    margin-left: 2px;
+  }
+  
+  .images:hover{
+    background-color: #ffffff;
+  }
+  
+  h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.6;
+  }
+  
+  .nav ul{
+    text-align: right;
+    font-size: 1.2em;
+    font-family: 'Oswald',fantasy;
+  }
+  
+  
+  
+  .profile{
+    text-align: center;
+  }
+  
+  
+  img{
+    border-radius: 50%;
+    margin-top: 2em;
+  }
+  
+  .mytext{
+    color:#ffffff;
+    text-align: center;
+    line-height: 0.5;
+    font-size: 3em;
+    text-shadow: 0 0 40px #D57DA3;
+  }
+  
+  .mytext2{
+    text-align: center;
+    color: #ffffff;
+    line-height: 0.5;
+    font-size: 4em;
+    text-shadow: 0 0 40px #D57DA3;
+  }
+  
+  .fancy {
+    line-height:0;
+    text-align: center;
+  }
+  
+  .fancy span {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .fancy span:before,
+  .fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    top: 0;
+    width: 200px;
+  }
+  
+  .fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  
+  .fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+  
+  /* projects*/
+  
+  .projects li{
+    margin-top: 5vh;
+    list-style-type: none;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border: 2px solid #ffffff;
+    padding-top: 2vh;
+    padding-left: 0.5vw;
+    padding-bottom: 5vh;
+    background-color: #E2E7E5;
+    border-radius: 10px;
+  }
+  
+  .projects a:hover{
+    background-position: 100% 0;
+    background-color:#53D7DD;
+    color: #ffffff;
+    transition:all .3s ease-in;
+  }
+  
+  .projects a{
+    color: #A5B3AE;
+    background-color: #ffffff;
+    border-left: 4px solid #D83590;
+    padding: 5px 28px;
+    text-decoration: none;
+  }
+  
+  .about{
+    margin-top: 5vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border: 2px solid #ffffff;
+    padding-top: 2vh;
+    padding-left: 0.5vw;
+    padding-bottom: 5vh;
+    background-color: #E2E7E5;
+    border-radius: 5% 0%;
+  }
+  
+  .about h3{
+    border: 2px solid #ffffff;
+    text-align: center;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    font-style: oblique;
+  }
+  
+  .aboutme img{
+    width: 15vw;
+    height: 15vw;
+    border: 2px solid #ffffff;
+    margin-left: 35%;
+  }
+  
+  .contact ul{
+    display: inline-block;
+  }
+  
+  .content{
+    background-color: #E1E48B;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 2vh;
+    padding: 4em;
+    border-left: 0.5vw solid #F3D413;
+  }
+  
+  .Maincontent{
+    margin: 2em;
+  }
+  
+  .nav ul{
+    text-align: center;
+  }
+  
+  .nav ul a{
+    color: #ffffff;
+  }
+  
+  .myButton {
+      /* background-color:#B8044D; */
+      -moz-border-radius:28px;
+      -webkit-border-radius:28px;
+      border-radius:28px;
+      display:inline-block;
+      cursor:pointer;
+      font-size:17px;
+      padding:5px 18px;
+      text-decoration:none;
+    margin: 2px;
+    box-shadow: 0 0 0 2px #FAE700;
+  
+  }
+  
+  .myButton:hover{
+    box-shadow: 0 0 0 2px white;
+    transition: box-shadow 0.8s ease;
+  }
