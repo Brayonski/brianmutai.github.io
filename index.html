@@ -2,38 +2,215 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Brian Mutai</title>
-  <link rel="stylesheet" href="css/style.css" type="text/css">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
-  
+    <meta charset="utf-8">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="images/title.png">
 </head>
 
-<body class="homepage">
+<body class="mainpage container-fluid" id="home">
+    <div class="container-fluid">
+        <nav id="navbar" class="">
+            <div class="nav-wrapper">
+                <!-- Navbar Logo -->
+                <div class="logo">
+                    <!-- Logo Placeholder for Inlustration -->
+                    <li><a href="#home" style="font-size:15px;"><img src="images/title.png" alt="" style="height:4vh"></a></li>
+                </div>
 
-  <hader>
-    <div class="nav">
-      <ul >
-        <a href="projects.html" class="myButton"><span>Projects</span></a>
-        <a href="aboutme.html" class="myButton"><span>About me</span></a>
-        <a href="contact.html" class="myButton"><span>Contact</span></a>
-      </ul>
+                <!-- Navbar Links -->
+                <ul id="menu">
+                    <!--
+             -->
+                    <li><a href="#projects" style="font-size:15px;">Projects</a></li>
+                    <!--
+             -->
+                    <li><a href="#skills" style="font-size:15px;">skills</a></li>
+                    <!--
+             -->
+                    <li><a href="#contact" style="font-size:15px;">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-  </header>
 
 
-  <div class="profile">
-    <img src="images/profile.jpeg" class="myprofile" alt="My picture">
-    <p class="mytext fancy"><span><em>Brian Kiprotich Mutai</em></span></p>
-    <p class="mytext2"><em>Web developer</em></p>
-  </div>
 
-  <div id="social">
-    <a href="#"><img class="images" src="images/ig.png" alt=""></a>
-    <a href="#"><img class="images"src="images/twitter1.png" alt=""></a>
-    <a href="#"><img class="images"src="images/facebook1.png" alt=""></a>
-  </div>
 
+    <div class="head" style="height:100vh;padding-top: 20vh">
+        <h1 data-aos="fade-up-right" data-aos-easing="linear" data-aos-duration="1500">
+            <span class="fancy" style="font-family: 'Monoton', cursive;"> <span>Brian Mutai</span></span>
+        </h1>
+        <p>
+            <em>Fullstack Developer</em>
+        </p>
+        <br>
+        <br>
+
+        <p class="item-1" style="font-family: 'KoHo', sans-serif;color:#ffffff;font-size: 7vh">I love what I do by
+            building </p>
+
+        <p class="item-2" style="font-family: 'KoHo', sans-serif;color:#ffffff;font-size: 7vh;">thoughtful,purposeful
+            and cool websites </p>
+
+        <p class="item-3" style="font-family: 'KoHo', sans-serif;color:#ffffff;font-size: 7vh">moreover I love
+            learning.</p>
+    </div>
+
+    <div class="col-md-12" style="background-color:aliceblue">
+        <div class="container">
+            <h1>Flat Skills charts with "Easy Pie chart"</h1>
+            <div class="chart" data-percent="80">HTML5</div>
+            <div class="chart" data-percent="30">CSS3</div>
+            <div class="chart" data-percent="60">SASS</div>
+            <div class="chart" data-percent="50">jQuery</div>
+            <div class="chart" data-percent="11">AngularJS</div>
+            <div class="chart" data-percent="20">BackboneJS</div>
+            <div class="chart" data-percent="30">NodeJS</div>
+            <div class="chart" data-percent="60">PHP</div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="padding-top:60vh">
+        <div class="col-md-12" style="background-color:aliceblue">
+            <div class="projects" id="projects" style="background-color:aliceblue">
+                <link href='https://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+                <div class="content">
+                    <div class="grid">
+                        <figure class="effect-bubba" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500">
+                            <img src="images/projects/awwwards.png" alt="img12" style="height:100vh;width:100vw" />
+                            <figcaption>
+                                <div>
+                                    <h2>Awwwards</h2>
+                                    <p>This is a web app that users can post projects,view,rate and search for
+                                        detailed description of the project.</p>
+                                </div>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-bubba" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+                            <img src="images/projects/instagram.png" alt="img14" style="height:100vh;width:100vw" />
+                            <figcaption>
+                                <h2>Instagram</h2>
+                                <p>This is a clone instagram where a user can upload pictures to the application,
+                                    see their profile with their pictures, follow other users and see their
+                                    pictures on their timeline, like a picture and leave a comment on it.</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+
+                    <div class="grid">
+                        <figure class="effect-bubba" data-aos="flip-up" data-aos-easing="linear" data-aos-duration="1500">
+                            <img src="images/projects/hood.png" alt="img06" style="height:100vh;width:100vw" />
+                            <figcaption>
+                                <h2>Neighbourhood</h2>
+                                <p>This is a web app that users posts businesses,upcoming businesses find
+                                    contact information that will be viscible to everyone in a
+                                    neighbourhood,change neighbourhood,view details of
+                                    a neighbourhood and Search for businesses.</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="effect-bubba" data-aos="flip-down" data-aos-easing="linear" data-aos-duration="1500">
+                            <img src="https://tympanus.net/Development/HoverEffectIdeas/img/16.jpg" alt="img16" style="height:100vh;width:100vw" />
+                            <figcaption>
+                                <h2>Moringa Tribune</h2>
+                                <p>The website is for displaying daily news of various things happening at Moringa.
+                                    From changes in administration, new Hires, Breaking news updates and also daily
+                                    student life moments</p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="grid">
+                        <figure class="effect-bubba" data-aos="zoom-in-right" data-aos-easing="linear"
+                            data-aos-duration="1500">
+                            <img src="images/projects/gallery.png" alt="img12" style="height:100vh;width:100vw" />
+                            <figcaption>
+                                <div>
+                                    <h2>Gallery</h2>
+                                    <p>This web app is used to show pictures based on different location of
+                                        shooting,categories and has photo descriptions.</p>
+                                </div>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect-bubba" data-aos="zoom-out-down" data-aos-easing="linear"
+                            data-aos-duration="1500">
+                            <img src="https://tympanus.net/Development/HoverEffectIdeas/img/14.jpg" alt="img14" style="height:100vh;width:100vw" />
+                            <figcaption>
+                                <h2>Beats Hub</h2>
+                                <p></p>
+                                <a href="#">View more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical"
+        data-theme="dark" data-vanity="mutaikips"><a class="LI-simple-link" href='https://ke.linkedin.com/in/mutaikips?trk=profile-badge'>Brian
+            Mutai</a></div> -->
+
+
+
+    <div class="footer">
+
+        <br>
+        <div class="images">
+            <img src="images/facebook1.png" width="40px" height="40px">
+            <img src="images/linkedin.png" width="40px" height="40px">
+            <img src="images/twitter.png" width="40px" height="40px">
+            <img src="images/google+.png" width="40px" height="40px">
+        </div>
+
+
+
+
+        <a href="#" class="float" data-toggle="modal" data-target="#exampleModal">
+            <i class="fa fa-envelope my-float"></i>
+        </a>
+        <div class="label-container">
+            <div class="label-text">Feedback</div>
+            <i class="fa fa-play label-arrow"></i>
+        </div>
+
+
+    </div>
+
+
+    <script src="js/jquery-3.3.1"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
+<script>
+    AOS.init();
+
+    $(function () {
+        $('.chart').easyPieChart({
+            scaleColor: "#ecf0f1",
+            lineWidth: 20,
+
+            barColor: '#1abc9c',
+            trackColor: "#ecf0f1",
+            size: 160,
+            animate: 500
+        });
+    });
+</script>
 
 </html>
